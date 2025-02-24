@@ -1,0 +1,46 @@
+{
+  "id": "custom-pool-names",
+  "name": "custom-pool-names",
+  "title": "Custom Pool Names",
+  "description": "Allows customization of stat pool names in the Cypher System",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Your Name"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "scripts": [],
+  "esmodules": [
+    "scripts/custom-pools.js"
+  ],
+  "styles": [
+    "styles/custom-pools.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "cyphersystem",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.2.1",
+          "verified": "3.2.1"
+        }
+      }
+    ]
+  }
+  "url": "https://github.com/Marlin-Blades/custom-pool-names",
+  "manifest": "https://raw.githubusercontent.com/Marlin-Blades/custom-pool-names/main/module.json",
+  "download": "https://github.com/Marlin-Blades/custom-pool-names/releases/download/1.0.0/module.zip"
+}

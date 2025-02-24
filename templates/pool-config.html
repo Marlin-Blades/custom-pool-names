@@ -1,0 +1,63 @@
+<form class="custom-pool-names">
+    <header class="sheet-header">
+        <h2>{{localize "custom-pool-names.settings.configTitle"}}</h2>
+    </header>
+
+    <div class="form-group">
+        <div class="pool-settings">
+            <!-- Might Pool Configuration -->
+            <div class="pool-setting">
+                <label>{{localize "custom-pool-names.labels.mightLabel"}}</label>
+                <div class="input-group">
+                    <input type="text" 
+                           name="mightName" 
+                           value="{{poolNames.might}}"
+                           placeholder="{{localize 'custom-pool-names.placeholders.enterName'}}"
+                           data-pool-type="might">
+                    <button class="reset-button" data-pool-type="might" title="{{localize 'custom-pool-names.tooltips.resetTip'}}">
+                        <i class="fas fa-undo"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Speed Pool Configuration -->
+            <div class="pool-setting">
+                <label>{{localize "custom-pool-names.labels.speedLabel"}}</label>
+                <div class="input-group">
+                    <input type="text" 
+                           name="speedName" 
+                           value="{{poolNames.speed}}"
+                           placeholder="{{localize 'custom-pool-names.placeholders.enterName'}}"
+                           data-pool-type="speed">
+                    <button class="reset-button" data-pool-type="speed" title="{{localize 'custom-pool-names.tooltips.resetTip'}}">
+                        <i class="fas fa-undo"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Intellect Pool Configuration -->
+            <div class="pool-setting">
+                <label>{{localize "custom-pool-names.labels.intellectLabel"}}</label>
+                <div class="input-group">
+                    <input type="text" 
+                           name="intellectName" 
+                           value="{{poolNames.intellect}}"
+                           placeholder="{{localize 'custom-pool-names.placeholders.enterName'}}"
+                           data-pool-type="intellect">
+                    <button class="reset-button" data-pool-type="intellect" title="{{localize 'custom-pool-names.tooltips.resetTip'}}">
+                        <i class="fas fa-undo"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="sheet-footer">
+        <button type="button" class="reset-all-button">
+            <i class="fas fa-undo"></i> {{localize "custom-pool-names.settings.reset"}}
+        </button>
+        <button type="submit" class="save-button">
+            <i class="fas fa-save"></i> {{localize "custom-pool-names.settings.save"}}
+        </button>
+    </footer>
+</form>

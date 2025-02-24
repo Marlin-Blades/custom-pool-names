@@ -1,0 +1,24 @@
+.cyphersystem .pool-name-input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+  width: 80px;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  height: 20px;          /* Match the height of surrounding text */
+  line-height: 20px;     /* Ensure text is vertically centered */
+  min-height: unset;     /* Override any minimum height settings */
+  box-sizing: border-box;
+}
+
+.cyphersystem .pool-name-input:hover {
+  border-bottom: 1px solid #666;
+}
+
+.cyphersystem .pool-name-input:focus {
+  border-bottom: 1px solid #000;
+  outline: none;
+  background: rgba(0, 0, 0, 0.05);
+}

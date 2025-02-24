@@ -1,0 +1,8 @@
+{
+  "custom-pool-names": {
+    "notifications": {
+      "saveSuccess": "Pool name updated successfully",
+      "error": "There was an error updating the pool name"
+    }
+  }
+}
