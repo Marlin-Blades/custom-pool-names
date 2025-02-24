@@ -41,6 +41,6 @@
     ]
   },
   "url": "https://github.com/Marlin-Blades/custom-pool-names",
-  "manifest": "https://raw.githubusercontent.com/Marlin-Blades/custom-pool-names/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Marlin-Blades/custom-pool-names/refs/heads/main/module.json",
   "download": "https://github.com/Marlin-Blades/custom-pool-names/releases/download/1.0.0/module.zip",
 }
